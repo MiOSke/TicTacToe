@@ -57,11 +57,19 @@
 				57929B33203F23AD0079283E /* AppDelegate.swift */,
 				57929B35203F23AD0079283E /* ViewController.swift */,
 				57929B37203F23AD0079283E /* Main.storyboard */,
+				57929B45203F25690079283E /* Resources */,
+			);
+			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		57929B45203F25690079283E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				57929B3A203F23AD0079283E /* Assets.xcassets */,
 				57929B3C203F23AD0079283E /* LaunchScreen.storyboard */,
 				57929B3F203F23AD0079283E /* Info.plist */,
 			);
-			path = TicTacToe;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2LP5P6TWN;
-				INFOPLIST_FILE = TicTacToe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TicTacToe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.broCode.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2LP5P6TWN;
-				INFOPLIST_FILE = TicTacToe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TicTacToe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.broCode.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
