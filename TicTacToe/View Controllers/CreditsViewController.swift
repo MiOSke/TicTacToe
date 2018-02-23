@@ -11,11 +11,25 @@ import AVFoundation
 
 class CreditsViewController: UIViewController {
 
+    var bgMusic: AVAudioPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let path = Bundle.main.path(forResource: "Credits.mp3", ofType: nil)!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            bgMusic = try AVAudioPlayer(contentsOf: url)
+            bgMusic?.play()
+        } catch {
+            print(error)
+        }
 
-        delayWithSeconds(20) {
+
+        delayWithSeconds(24.40) {
             self.performSegue(withIdentifier: "backToBeginning", sender: Any?.self)
+            self.bgMusic?.stop()
         }
     }
     

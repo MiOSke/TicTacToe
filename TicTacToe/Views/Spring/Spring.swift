@@ -176,7 +176,7 @@ public class Spring : NSObject {
             case .SlideDown:
                 y = -300*force
             case .SlideUp:
-                y = 300*force
+                y = 600*force
             case .SqueezeLeft:
                 x = 300
                 scaleX = 3*force
