@@ -31,6 +31,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         toggle = true
+        
+        audioPlayer?.stop()
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
     
     @IBAction func a1Pressed(_ sender: Any) {

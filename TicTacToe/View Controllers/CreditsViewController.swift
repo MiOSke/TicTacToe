@@ -33,6 +33,10 @@ class CreditsViewController: UIViewController {
         }
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     func delayWithSeconds(_ seconds: Double, completion: @escaping () -> ()) {
         DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
             completion()

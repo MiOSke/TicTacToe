@@ -27,5 +27,9 @@ class WinnerViewController: UIViewController {
             completion()
         }
     }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 
 }

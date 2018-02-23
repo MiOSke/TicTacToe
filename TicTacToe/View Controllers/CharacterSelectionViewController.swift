@@ -25,6 +25,10 @@ class CharacterSelectionViewController: UIViewController {
 
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     @IBAction func smileyOneTapped(_ sender: Any) {
         if playerTurn == 1 {
             smileyOne.setImage(#imageLiteral(resourceName: "Character 1"), for: .normal)

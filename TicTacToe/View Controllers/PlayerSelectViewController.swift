@@ -12,7 +12,16 @@ class PlayerSelectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        do {
+            try VideoBackground.shared.play(view: self.view, name: "bg", type: "mp4")
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
 
 }

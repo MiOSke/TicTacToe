@@ -31,6 +31,10 @@ class BattleScreenViewController: UIViewController {
         }
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toGameView" {
             guard let destinationVC = segue.destination as? ViewController else {return}

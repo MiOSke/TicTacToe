@@ -52,6 +52,9 @@
 		57929B3E203F23AD0079283E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57929B3C203F23AD0079283E /* LaunchScreen.storyboard */; };
 		BAB1F23D203FA4A100E62475 /* bg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BAB1F23B203FA4A100E62475 /* bg.mp4 */; };
 		BAB1F23E203FA4A100E62475 /* Credits.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAB1F23C203FA4A100E62475 /* Credits.mp3 */; };
+		BAB1F243203FBF1500E62475 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1F240203FBF1400E62475 /* VideoBackgroundError.swift */; };
+		BAB1F244203FBF1500E62475 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1F241203FBF1400E62475 /* VideoBackground.swift */; };
+		BAB1F245203FBF1500E62475 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1F242203FBF1400E62475 /* VideoInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +106,9 @@
 		57929B3F203F23AD0079283E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAB1F23B203FA4A100E62475 /* bg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg.mp4; sourceTree = "<group>"; };
 		BAB1F23C203FA4A100E62475 /* Credits.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Credits.mp3; sourceTree = "<group>"; };
+		BAB1F240203FBF1400E62475 /* VideoBackgroundError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundError.swift; sourceTree = "<group>"; };
+		BAB1F241203FBF1400E62475 /* VideoBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackground.swift; sourceTree = "<group>"; };
+		BAB1F242203FBF1400E62475 /* VideoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				5776FFCB203F6790005C0A43 /* Main.storyboard */,
-				575EB6F4203F85C50065F649 /* Spring */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				57929B33203F23AD0079283E /* AppDelegate.swift */,
 				575EB6F0203F82100065F649 /* View Controllers */,
 				575EB6F1203F821F0065F649 /* Views */,
+				BAB1F246203FBF3200E62475 /* Libraries */,
 				57929B45203F25690079283E /* Resources */,
 			);
 			path = TicTacToe;
@@ -224,6 +230,25 @@
 				5776FFCF203F6807005C0A43 /* Fonts */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BAB1F23F203FBEF600E62475 /* Video BG */ = {
+			isa = PBXGroup;
+			children = (
+				BAB1F241203FBF1400E62475 /* VideoBackground.swift */,
+				BAB1F240203FBF1400E62475 /* VideoBackgroundError.swift */,
+				BAB1F242203FBF1400E62475 /* VideoInfo.swift */,
+			);
+			path = "Video BG";
+			sourceTree = "<group>";
+		};
+		BAB1F246203FBF3200E62475 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BAB1F23F203FBEF600E62475 /* Video BG */,
+				575EB6F4203F85C50065F649 /* Spring */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +339,7 @@
 				57929B36203F23AD0079283E /* ViewController.swift in Sources */,
 				575EB719203F85C50065F649 /* SpringImageView.swift in Sources */,
 				575EB72B203F85C50065F649 /* SpringAnimation.swift in Sources */,
+				BAB1F244203FBF1500E62475 /* VideoBackground.swift in Sources */,
 				575EB6E0203F6E360065F649 /* CharacterSelectionViewController.swift in Sources */,
 				575EB716203F85C50065F649 /* TransitionZoom.swift in Sources */,
 				575EB721203F85C50065F649 /* SpringView.swift in Sources */,
@@ -330,6 +356,7 @@
 				575EB71D203F85C50065F649 /* DesignableTextField.swift in Sources */,
 				575EB718203F85C50065F649 /* Spring.swift in Sources */,
 				575EB72C203F85C50065F649 /* UnwindSegue.swift in Sources */,
+				BAB1F245203FBF1500E62475 /* VideoInfo.swift in Sources */,
 				575EB6E6203F7CA10065F649 /* CreditsViewController.swift in Sources */,
 				575EB725203F85C50065F649 /* DesignableTabBarController.swift in Sources */,
 				575EB72D203F85C50065F649 /* LoadingView.swift in Sources */,
@@ -344,6 +371,7 @@
 				575EB71A203F85C50065F649 /* DesignableLabel.swift in Sources */,
 				575EB729203F85C50065F649 /* DesignableTextView.swift in Sources */,
 				575EB71B203F85C50065F649 /* SoundPlayer.swift in Sources */,
+				BAB1F243203FBF1500E62475 /* VideoBackgroundError.swift in Sources */,
 				575EB717203F85C50065F649 /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
