@@ -12,9 +12,9 @@ import AVFoundation
 
 class LoadingScreenViewController: UIViewController {
     
+    @IBOutlet weak var progressBar: UIProgressView!
     static let shared = LoadingScreenViewController()
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,12 +27,22 @@ class LoadingScreenViewController: UIViewController {
         } catch {
             print(error)
         }
-
-
+        
+        delayWithSeconds(1.0) {
+            self.progressBar.setProgress(0.33, animated: true)
+        }
+        
+        delayWithSeconds(2.0) {
+            self.progressBar.setProgress(0.66, animated: true)
+        }
+        
+        delayWithSeconds(2.5) {
+            self.progressBar.setProgress(1, animated: true)
+        }
+        
         delayWithSeconds(3.0) {
             self.performSegue(withIdentifier: "toPlayerSelect", sender: self)
         }
-        
     }
     
     override var prefersStatusBarHidden: Bool {
@@ -44,14 +54,4 @@ class LoadingScreenViewController: UIViewController {
             completion()
         }
     }
-
-
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-
 }

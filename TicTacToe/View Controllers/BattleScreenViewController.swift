@@ -11,6 +11,7 @@ import UIKit
 class BattleScreenViewController: UIViewController {
     @IBOutlet weak var playerOneImageView: UIImageView!
     @IBOutlet weak var playerTwoImageView: UIImageView!
+    @IBOutlet weak var progressBar: UIProgressView!
     
     var playerOneImage = #imageLiteral(resourceName: "icons8-poo")
     var playerTwoImage = #imageLiteral(resourceName: "icons8-poo")
@@ -19,6 +20,18 @@ class BattleScreenViewController: UIViewController {
         super.viewDidLoad()
         playerOneImageView.image = playerOneImage
         playerTwoImageView.image = playerTwoImage
+        
+        delayWithSeconds(0.5) {
+            self.progressBar.setProgress(0.33, animated: true)
+        }
+        
+        delayWithSeconds(1.0) {
+            self.progressBar.setProgress(0.66, animated: true)
+        }
+        
+        delayWithSeconds(1.5) {
+            self.progressBar.setProgress(1, animated: true)
+        }
         
         delayWithSeconds(2.0) {
             self.performSegue(withIdentifier: "toGameView", sender: Any?.self)
