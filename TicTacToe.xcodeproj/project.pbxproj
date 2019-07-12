@@ -39,7 +39,7 @@
 		575EB72B203F85C50065F649 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575EB70E203F85C50065F649 /* SpringAnimation.swift */; };
 		575EB72C203F85C50065F649 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575EB70F203F85C50065F649 /* UnwindSegue.swift */; };
 		575EB72D203F85C50065F649 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575EB710203F85C50065F649 /* LoadingView.swift */; };
-		575EB72E203F85C50065F649 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575EB711203F85C50065F649 /* Info.plist */; };
+		575EB72E203F85C50065F649 /* InfoSpring.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575EB711203F85C50065F649 /* InfoSpring.plist */; };
 		575EB72F203F85C50065F649 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575EB712203F85C50065F649 /* AsyncImageView.swift */; };
 		5776FFCC203F6790005C0A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5776FFCB203F6790005C0A43 /* Main.storyboard */; };
 		5776FFCE203F67AD005C0A43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5776FFCD203F67AD005C0A43 /* Images.xcassets */; };
@@ -50,8 +50,6 @@
 		57929B34203F23AD0079283E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57929B33203F23AD0079283E /* AppDelegate.swift */; };
 		57929B36203F23AD0079283E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57929B35203F23AD0079283E /* ViewController.swift */; };
 		57929B3E203F23AD0079283E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57929B3C203F23AD0079283E /* LaunchScreen.storyboard */; };
-		BAB1F23D203FA4A100E62475 /* bg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BAB1F23B203FA4A100E62475 /* bg.mp4 */; };
-		BAB1F23E203FA4A100E62475 /* Credits.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAB1F23C203FA4A100E62475 /* Credits.mp3 */; };
 		BAB1F243203FBF1500E62475 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1F240203FBF1400E62475 /* VideoBackgroundError.swift */; };
 		BAB1F244203FBF1500E62475 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1F241203FBF1400E62475 /* VideoBackground.swift */; };
 		BAB1F245203FBF1500E62475 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB1F242203FBF1400E62475 /* VideoInfo.swift */; };
@@ -91,7 +89,7 @@
 		575EB70E203F85C50065F649 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 		575EB70F203F85C50065F649 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		575EB710203F85C50065F649 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		575EB711203F85C50065F649 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575EB711203F85C50065F649 /* InfoSpring.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InfoSpring.plist; sourceTree = "<group>"; };
 		575EB712203F85C50065F649 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		5776FFCB203F6790005C0A43 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5776FFCD203F67AD005C0A43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -104,8 +102,6 @@
 		57929B35203F23AD0079283E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57929B3D203F23AD0079283E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57929B3F203F23AD0079283E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAB1F23B203FA4A100E62475 /* bg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg.mp4; sourceTree = "<group>"; };
-		BAB1F23C203FA4A100E62475 /* Credits.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Credits.mp3; sourceTree = "<group>"; };
 		BAB1F240203FBF1400E62475 /* VideoBackgroundError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackgroundError.swift; sourceTree = "<group>"; };
 		BAB1F241203FBF1400E62475 /* VideoBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackground.swift; sourceTree = "<group>"; };
 		BAB1F242203FBF1400E62475 /* VideoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
@@ -175,7 +171,7 @@
 				575EB70E203F85C50065F649 /* SpringAnimation.swift */,
 				575EB70F203F85C50065F649 /* UnwindSegue.swift */,
 				575EB710203F85C50065F649 /* LoadingView.swift */,
-				575EB711203F85C50065F649 /* Info.plist */,
+				575EB711203F85C50065F649 /* InfoSpring.plist */,
 				575EB712203F85C50065F649 /* AsyncImageView.swift */,
 			);
 			path = Spring;
@@ -194,8 +190,6 @@
 		57929B27203F23AD0079283E = {
 			isa = PBXGroup;
 			children = (
-				BAB1F23B203FA4A100E62475 /* bg.mp4 */,
-				BAB1F23C203FA4A100E62475 /* Credits.mp3 */,
 				57929B32203F23AD0079283E /* TicTacToe */,
 				57929B31203F23AD0079283E /* Products */,
 			);
@@ -278,7 +272,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = broCode;
 				TargetAttributes = {
 					57929B2F203F23AD0079283E = {
@@ -315,16 +309,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				575EB72E203F85C50065F649 /* Info.plist in Resources */,
+				575EB72E203F85C50065F649 /* InfoSpring.plist in Resources */,
 				5776FFD4203F6808005C0A43 /* Short Xurkit Tilt.otf in Resources */,
 				57929B3E203F23AD0079283E /* LaunchScreen.storyboard in Resources */,
 				5776FFCE203F67AD005C0A43 /* Images.xcassets in Resources */,
-				BAB1F23D203FA4A100E62475 /* bg.mp4 in Resources */,
 				5776FFD5203F6808005C0A43 /* WONDER.TTF in Resources */,
 				575EB727203F85C50065F649 /* LoadingView.xib in Resources */,
 				5776FFCC203F6790005C0A43 /* Main.storyboard in Resources */,
 				5776FFD3203F6808005C0A43 /* amsterdam.ttf in Resources */,
-				BAB1F23E203FA4A100E62475 /* Credits.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +396,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -411,6 +404,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -461,6 +455,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -468,6 +463,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -502,7 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NELGRQX33K;
+				DEVELOPMENT_TEAM = L2LP5P6TWN;
 				INFOPLIST_FILE = "$(SRCROOT)/TicTacToe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.broCode.TicTacToe;
@@ -517,7 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NELGRQX33K;
+				DEVELOPMENT_TEAM = L2LP5P6TWN;
 				INFOPLIST_FILE = "$(SRCROOT)/TicTacToe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.broCode.TicTacToe;

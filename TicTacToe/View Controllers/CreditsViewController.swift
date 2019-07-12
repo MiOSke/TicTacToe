@@ -16,15 +16,15 @@ class CreditsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let path = Bundle.main.path(forResource: "Credits.mp3", ofType: nil)!
-        let url = URL(fileURLWithPath: path)
-        
-        do {
-            bgMusic = try AVAudioPlayer(contentsOf: url)
-            bgMusic?.play()
-        } catch {
-            print(error)
-        }
+//        let path = Bundle.main.path(forResource: "Credits.mp3", ofType: nil)!
+//        let url = URL(fileURLWithPath: path)
+//        
+//        do {
+//            bgMusic = try AVAudioPlayer(contentsOf: url)
+//            bgMusic?.play()
+//        } catch {
+//            print(error)
+//        }
 
 
         delayWithSeconds(24.40) {
